@@ -10,7 +10,7 @@ all you have to do for it to work is:
 2. implement the func:
     > func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath)
 
-3. call the func:
+3. call the func "animateCells" inside the "willDisplay" cell you implemented:
  > tableView.animateCells(AnimationFactory.makeMoveUpWithFade(rowHeight: cell.frame.height, duration: 0.5, delayFactor: 0.05), tableView: tableView, cell: cell, indexPath: indexPath)
  
  with the proper variables u want this is an example of moving the cells with fade animation
