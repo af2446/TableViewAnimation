@@ -25,4 +25,4 @@ all you have to do for it to work is:
  
  hope you find it useful.
  
- author Aviv Frenkel
+ author: Aviv Frenkel
