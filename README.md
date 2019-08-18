@@ -1,4 +1,5 @@
 # TableViewAnimation
+Available for Swift 3+
 A Swift extension for UITableView which makes animation easy
 
 
