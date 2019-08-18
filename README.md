@@ -13,4 +13,16 @@ all you have to do for it to work is:
 3. call the func "animateCells" inside the "willDisplay" cell you implemented:
  > tableView.animateCells(AnimationFactory.makeMoveUpWithFade(rowHeight: cell.frame.height, duration: 0.5, delayFactor: 0.05), tableView: tableView, cell: cell, indexPath: indexPath)
  
- with the proper variables u want this is an example of moving the cells with fade animation
+ with the proper variables u want this is an example of moving the cells with fade animation.
+ 
+ i have included 4 types of animations which you can conntrol the variables yourself such as:
+ - makeFadeAnimation.
+ - makeMoveUpWithBounce.
+ - makeMoveUpWithFade.
+ - makeSlideIn.
+ 
+ if you have any bright ideas, just make a pull request and i'll go over it.
+ 
+ hope you find it useful.
+ 
+ author Aviv Frenkel
